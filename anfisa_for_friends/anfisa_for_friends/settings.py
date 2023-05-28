@@ -86,7 +86,9 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+STATICFILES_DIRS = [
+    BASE_DIR / 'static_dev',
+]
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
